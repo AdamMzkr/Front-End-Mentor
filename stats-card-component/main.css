@@ -1,0 +1,163 @@
+:root{
+--mainBG: hsl(233, 47%, 7%);
+--cardBG: hsl(244, 38%, 16%);
+--accent: hsl(277, 64%, 61%);
+--accentIMG: hsl(280, 65%, 65%);
+ /*text colors*/ 
+--white: hsl(0, 0%, 100%);
+--transparent: hsla(0, 0%, 100%, 0.7);
+--slightlyTransparent: hsla(0, 0%, 100%, 0.6);
+}
+
+/**{
+  border: 1px solid white;
+}*/
+.flex{
+  display:flex;
+  flex-direction: column;
+}
+
+
+body{
+  background-color:var(--mainBG);
+  color: var(--white);
+  font-family: 'Inter', sans-serif;
+}
+
+main{
+  justify-content:center;
+  align-items:center;
+  height: 95vh;
+}
+
+.card{
+  background-color: var(--cardBG);
+  border-radius:.75em;
+  width: 20em;
+}
+.content{
+  padding:1em 1.75em;
+}
+.image{
+  border-radius: 0.75em 0.75em 0 0;
+  height:15em;
+  background-image: url(images/image-header-mobile.jpg);
+  background-size: cover;
+  background-color: var(--accentIMG);
+  background-blend-mode: multiply;
+
+}
+.main-heading{
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+h1 strong{
+  color:var(--accent);
+}
+.description{
+  font-size: 1rem;
+  color:var(--transparent);
+  text-align:center;
+  line-height: 1.75em;
+}
+.stats{
+  flex-direction:column;
+  align-items:center;
+  height:12em;
+  justify-content:space-between;
+  padding: 1.5em;
+}
+.data span{
+  font-size:0.7rem;
+  text-align:center;
+  text-transform:uppercase;
+  letter-spacing:.15em;
+  font-weight:400;
+  color: var(--transparent);
+}
+.data {
+  line-height: 0.75em;
+  width:5em;
+  font-size:1.5rem;
+  text-align:center;
+  font-weight: 700;
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; }
+.attribution a { 
+  color: var(--accent); 
+  text-decoration: none;
+}
+
+
+/*tablet view*/
+@media only screen and (min-width: 720px) {
+
+  .card{
+    width: 70%;
+  }
+  .image{
+    height: 35vh;
+    background-image: url(images/image-header-desktop.jpg);
+    background-size: cover;
+    background-color: var(--accentIMG);
+    background-blend-mode: multiply;
+
+  }
+  .content{
+    padding: 0 4em;
+  }
+ 
+  .stats{
+    height: 6em;
+    flex-direction: row;
+  }
+
+ 
+}
+/*desktop view*/
+@media only screen and (min-width: 1200px) {
+
+  .card{
+    max-width: 65em;
+    flex-direction: row-reverse;
+    border-radius:1em;
+
+  }
+  .image{
+    width: 75em;
+    height: auto;
+    background-image: url(images/image-header-desktop.jpg);
+    background-size: cover;
+    background-color: var(--accentIMG);
+    background-blend-mode: multiply;
+
+  }
+  .content{
+    padding: 2em 6em 2em 3em;
+    max-width: 50%;
+  }
+ 
+  .stats{
+    padding: 1em 0;
+    height: 5em;
+    flex-direction: row;
+  }
+  .description{
+    text-align: left;
+  }
+  .main-heading{
+    text-align: left;
+    font-size: 2.25rem;
+  }
+  .data{
+    width: 3em;
+  }
+   .image{
+    border-radius: 0 1em 1em 0;
+  }
+ 
+}
