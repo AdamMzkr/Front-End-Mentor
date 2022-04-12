@@ -1,0 +1,126 @@
+
+:root{
+--brightOrange: hsl(31, 77%, 52%);
+--darkCyan: hsl(184, 100%, 22%);
+--veryDarkCyan: hsl(179, 100%, 13%);
+--paragraph: hsla(0, 0%, 100%, 0.75);
+--lightGray: hsl(0, 0%, 95%);
+}
+*{
+ margin:0;
+ padding:0;
+}
+body{
+  display:flex;
+  flex-direction:column;
+  background-color:var(--gray);
+  color:var(--lightGray);
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+}
+
+p{
+  margin:2.5em 0 0 0; ;
+  font-weight:400;
+  line-height: 1.5em;
+  color: var(--paragraph);
+}
+main{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100%;
+  padding: 5em;
+}
+.container{
+  width:22em;
+  display:flex;
+  flex-direction:column;
+}
+section{
+  padding: 0 4em 2em 3em;
+}
+.section-title{
+  text-transform:uppercase;
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 3rem;
+}
+.sedans{
+  background-color:var(--brightOrange);
+  border-radius: .75em .75em 0 0;
+}
+.suvs{
+  background-color:var(--darkCyan);
+}
+.lux{
+  background-color:var(--veryDarkCyan);
+  border-radius: 0 0 .75em .75em;
+}
+.icon{
+  width:5em;
+  height:3em;
+  margin:2.5em 0;
+}
+.btn{
+  margin:2.5em 0;
+  background-color:var(--lightGray);
+  border: 1px solid var(--lightGray);
+  color:var(--lightgray);
+  font-weight:400;
+  font-size: 1rem;
+  border-radius:10em;
+  padding:.75em 1.75em;
+  transition: 0.5s
+}
+
+.sedans .btn{
+  color:var(--brightOrange);
+}
+.suvs .btn{
+  color:var(--darkCyan);
+}
+.lux .btn{
+  color:var(--veryDarkCyan);
+}
+.btn:hover{
+  background-color:transparent;
+  color:var(--lightGray);
+  cursor: pointer;
+}
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+ color: var(--veryDarkCyan);
+padding: 2em}
+
+    
+.attribution a { 
+  color: var(--brightOrange);
+  text-decoration: none;
+
+ }
+ 
+
+ @media only screen and (min-width: 900px) {
+ 	body{
+ 		height: 100vh;
+ 	}
+  .main{
+  	padding: 0;
+  	margin: 0;
+  }
+  .container{
+  	flex-direction: row;
+  	width: 66em;
+  }
+
+  .sedans{
+  background-color:var(--brightOrange);
+  border-radius: .75em 0 0 .75em;
+ }
+ .lux{
+  background-color:var(--veryDarkCyan);
+  border-radius: 0 .75em 0.75em 0;
+ }
+    
+}
