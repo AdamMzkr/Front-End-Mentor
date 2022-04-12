@@ -1,0 +1,129 @@
+:root{
+--white: hsl(0, 0%, 100%);
+--lightGrey: hsl(217, 12%, 63%);
+--lightGreyOp: hsla(217, 12%, 63%, 0.15);
+--mediumGrey: hsl(216, 12%, 54%);
+--darkBlue: hsl(213, 19%, 18%);
+--veryDarkBlue: hsl(216, 12%, 8%);
+--veryDarkBlueOp: hsla(216, 12%, 8%, 0.15);
+--orange: hsl(25, 97%, 53%);
+}
+
+.d-f-row{
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+  align-items: center;
+}
+.d-f-column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tc{
+  text-align: center;
+}
+body{
+  background-color:var(--veryDarkBlue);
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+}
+main{
+  height: 95vh;
+}
+
+h1{
+  color:var(--white);
+}
+p{
+  color:var(--lightGrey);
+  margin: 1em 0;
+  line-height: 1.5em;
+}
+.container{
+ background: linear-gradient(to bottom right, var(--lightGreyOp), var(--veryDarkBlueOp));
+  width:20em;
+  padding:2em 1.5em;
+  border-radius:1.25em;
+  
+}
+.circle{
+  width:3em;
+  height:3em;
+  border-radius:50%;
+  background-color:var(--lightGreyOp);
+}
+
+
+.rates-values{
+  width:100%;
+  justify-content:space-between;
+  
+}
+
+.round-btn{
+  height:3.25em;
+  width:3.25em;
+  border-radius:50%;
+  background-color:var(--lightGreyOp);
+  color:var(--mediumGrey);
+  border:none;
+  transition: 0.5s;
+}
+
+.round-btn:hover{
+  color:var(--white);
+  background-color: var(--orange);
+}
+
+.round-btn:focus{
+  background-color:var(--lightGrey);
+  color:var(--white);
+}
+
+.submit{
+  text-transform:uppercase;
+  background-color:var(--orange);
+  color:var(--white);
+  font-size: 1rem;
+  letter-spacing: .2em;
+  display:block;
+  width:100%;
+  font-weight: 600;
+  padding:1em;
+  border-radius:3em;
+  border:none;
+  margin-top:2em;
+  transition: 0.5s;
+}
+.submit:hover{
+  background-color:var(--white);
+  color: var(--orange);
+}
+.hidden{
+  opacity: 0;
+  display: none;
+}
+
+.show{
+  opacity: 1;
+  transition: 1s;
+}
+ 
+.attribution { 
+  font-size: 11px; 
+  text-align: center;
+  color:var(--lightGrey)
+}
+.attribution a { 
+  color: var(--orange) 
+}
+
+.selected-rate{
+  color: var(--orange);
+  background-color: var(--lightGreyOp);
+  border-radius: 20em;
+  padding: .5em .75em;
+  margin-top: 2em;
+}
