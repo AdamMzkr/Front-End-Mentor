@@ -10,7 +10,7 @@
 }
 body{
 	background-image: linear-gradient(var(--softViolet), var(--softBlue));
-  background-size: cover;
+  	background-size: cover;
 	margin: 0 auto;
 	font-family: 'Kumbh Sans', sans-serif;
 	height: 100vh;
@@ -25,10 +25,11 @@ main{
 
 
 .container{
-	padding: 1.5em;
 	width: 20em;
 	background-color: white;
 	border-radius:1.5em;
+	display: flex;
+	flex-direction: column;
 }
 .header{
 	margin-top: -8em;
@@ -36,20 +37,31 @@ main{
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	box-sizing: border-box;
 
 }
 .illustration{
+	margin-top:2em;
 	width: 15em;
 }
+.content{
+ 	padding: 2em;
+ }
+
+.box{
+	display: none;
+}
+
 
 .illustration-pattern{
 	width: 15em;
-	margin-top: -4.5em;
+	margin-top: -5em;
 }
 .site-title{
 	text-align: center;
 	color: black;
 	padding: 0.5em;
+	margin: 0;
 	color: var(--verydDarkBlue);
 }
 
@@ -62,8 +74,9 @@ main{
 	color: var(--gray);
 	font-weight: 400;
 }
-.question span{
-	color: var(--orange);
+.icon{
+	width: 0.75em;
+	height: 0.75em;
 }
 .active{
 	color: var(--verydDarkBlue);
@@ -78,11 +91,68 @@ main{
 .answer{
 	font-size: 0.8rem;
 	padding-right: 2em;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  color: var(--gray);
+  	max-height: 0;
+  	overflow: hidden;
+  	transition: max-height 0.2s ease-out;
+  	color: var(--gray);
 }
 .aq{
 	border-bottom: 1px solid var(--line);
 }
+
+.attribution { 
+ 	font-size: 11px; 
+ 	text-align: center; 
+ 	color:white 
+}
+ 	attribution a { 
+ 	color: orange
+}
+
+
+ @media only screen and (min-width: 900px) {
+
+ .container{
+ 	background-image: url(images/bg-desktop.svg);
+ 	background-size: 40em;
+ 	background-repeat: no-repeat;
+ 	background-position: -19em -11em;
+ 	width: 50em;
+ 	flex-direction: row;
+ }
+ .content{
+ 	width: 50%;
+ }
+ .site-title{
+	text-align: left;
+	margin: 0;
+	padding:0;
+}
+ .header{
+ 	width: 50%;
+ }
+ .illustration-pattern{
+	display: none;
+}
+
+ .illustration{
+	display: none;
+}
+
+.header{
+	background-image: url(images/illustration-desktop.svg);
+	background-repeat: no-repeat;
+	background-size: 25em;
+	background-position: -4em  10em;
+}
+
+.box{
+	position: relative;
+	display: block;
+	width: 8em;
+	height: 8em;
+	top: 6em;
+	left: -11.5em;
+}
+
+ }
