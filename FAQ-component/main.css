@@ -113,10 +113,11 @@ main{
  @media only screen and (min-width: 900px) {
 
  .container{
- 	background-image: url(images/bg-desktop.svg);
+ 	background-image: url(images/bg-pattern-desktop.svg);
  	background-size: 40em;
  	background-repeat: no-repeat;
  	background-position: -19em -11em;
+	 padding 2em 0
  	width: 50em;
  	flex-direction: row;
  }
