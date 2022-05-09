@@ -1,0 +1,84 @@
+:root{
+	--veryDarkMagenta: hsl(300, 43%, 22%);
+	--softPink: hsl(333, 80%, 67%);
+	--darkGrayishMagenta: hsl(303, 10%, 53%);
+	--lightGrayishMagenta: hsl(300, 24%, 96%);
+	--white: hsl(0, 0%, 100%);
+}
+/*reser padding and margin elements*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.flex{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+
+body{
+	background-color: var(--white);
+	font-family: sans-serif;
+}
+main{
+	padding: 1em;
+}
+
+.main-title{
+	color: var(--veryDarkMagenta);
+	text-align: center;
+	padding: 0 1.75em;
+	font-size: 2rem;
+
+}
+.content{
+	padding: 1em 0;
+	color: var(--darkGrayishMagenta);
+	line-height: 1.5em;
+	text-align: center;
+	font-size: 1.2rem;
+}
+.rate{
+	background-color: var(--lightGrayishMagenta);
+	padding: 1.5em;
+	margin: 1em;
+	color: var(--veryDarkMagenta);
+	text-align: center;
+	border-radius: 0.5em;
+}
+.stars{
+	padding: 0 0 0.5em 0 ;
+}
+
+.testimonial{
+	background-color: var(--veryDarkMagenta);
+	color: var(--white);
+	margin: 1em;
+	padding: 0 3em;
+	border-radius: 0.5em;
+}
+.testimonial-head{
+	padding: 1.5em 0;
+}
+.avatar{
+	width: 3em;
+	height: 3em;
+	border-radius: 50%;
+	margin-right: 2em;
+}
+.name{
+	font-size: 1.1rem;
+}
+.job{
+	color: var(--softPink);
+	font-size: 1.1rem;
+	font-weight: 400;
+}
+ .testimonial .content{
+ 	color: var(--white);
+ 	text-align: left;
+ 	padding: 0 0 1.5em 0;
+ 	font-size: 1rem;
+ }
