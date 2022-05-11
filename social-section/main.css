@@ -15,16 +15,22 @@
 	display: flex;
 	align-items: center;
 }
-
-
 body{
+	height: 100%;
 	background-color: var(--white);
-	font-family: sans-serif;
-	background-image: 
-	/*url(images/bg-pattern-top-desktop.svg),
-	url(images/bg-pattern-bottom-desktop.svg);
-	back*/
+	font-family: 'Kumbh Sans', sans-serif;
+	position: relative;
+}
+body::before{
+	content:url(images/bg-pattern-top-desktop.svg);
+	position: fixed;
+}
 
+body::after{
+	content:url(images/bg-pattern-bottom-desktop.svg);
+	position: fixed;
+	bottom: 0%; 
+	right: 0;
 }
 main{
 	padding: 1em;
@@ -107,10 +113,37 @@ main{
  	font-size: 0.8rem;
  }
 
+ .attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 4em;
+ }
+ .attribution a {
+    color: var(--veryDarkMagenta);
+    text-decoration: none;
+ }
+    
+
 @media screen and (min-width: 900px){
+
+	body::before{
+		content:url(images/bg-pattern-top-desktop.svg);
+		position: fixed;
+	}
+	body{
+		height: 100vh;
+	}
+
+	body::after{
+		content:url(images/bg-pattern-bottom-desktop.svg);
+		position: fixed;
+		z-index: -1;
+	}
+	
 	main{
 	  width: 90%;
-	  margin :10em auto
+	  padding :10em 0;
+	  margin: 0 auto;
 	}
 	.flex{
 		flex-direction: row;
