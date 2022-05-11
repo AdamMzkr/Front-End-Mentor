@@ -37,7 +37,6 @@ main{
 }
 .header{
 	flex-direction: column;
-	max-widht: 100%;
 }
 
 .main-title{
@@ -45,7 +44,6 @@ main{
 	text-align: center;
 	padding: 0 1.75em;
 	font-size: 2rem;
-
 }
 .content{
 	padding: 1em 0;
@@ -141,8 +139,8 @@ main{
 	}
 	
 	main{
-	  width: 90%;
-	  padding :10em 0;
+	  width: 80%;
+	  padding :5em 0;
 	  margin: 0 auto;
 	}
 	.flex{
