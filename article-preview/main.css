@@ -28,11 +28,15 @@ main{
 	width: 22em;
 	background-color: var(--white);
 	border-radius: 0.5em;
+	display: flex;
+	flex-direction: column;
 }
 .head-image{
 	height: 15em;
 	width: 100%;
 	border-radius:  0.5em 0.5em 0 0;
+	background: url("images/drawers.jpg");
+	background-size: cover;
 }
 
 .container{
@@ -68,6 +72,7 @@ main{
 	padding: 0.3rem 0;
 	color: var(--grayishBlue);
 	font-weight: 400;
+	display
 }
 .icon{
 	width: 2.5em;
@@ -80,8 +85,15 @@ main{
 	border-radius: 50%;
 }
 
-@media screen and min-width(900px){
-	body{
-		background: red;
+@media only screen and (min-width: 900px){
+	.card{
+		width: 50em;
+		flex-direction: row;
 	}
+
+	.head-image{
+		height: 20em;
+		border-radius:  0.5em 0 0 0.5em;
+}
+
 }
