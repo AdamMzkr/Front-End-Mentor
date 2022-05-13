@@ -16,6 +16,7 @@ body{
 	background-color: var(--lightGrayishBlue);
 	font-family: sans-serif;
 	color: var(--desaturatedDarkBlue);
+	line-height: 1.5em;
 }
 main{
 	display: flex;
@@ -39,51 +40,92 @@ main{
 	background-size: cover;
 }
 
-.container{
-	padding: 2em 2.5em;
+.p-1{
+	padding: 0.75em 1.5em 0 1.5em;
+
 }
 
 .main-title{
 	font-size: 1.2rem;
 	margin: 1.5em 0;
 }
-.content{
-	font-size: 1rem;
-	padding-bottom: 2em;
-	line-height: 1.5em;
-	color: var(--grayishBlue)
-}
+
 .user{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 0.75em 1.5em;
+	margin-top: 1em;
+	height: 4.5em;
+}
+
+.active-mobile{
+	background-color: var(--veryDarkBlue);
+	border-radius: 0 0 0.5em 0.5em;
 }
 
 .avatar{
 	width: 3em;
+	height: 3em;
 	border-radius: 50%;
+	background: url("images/avatar-michelle.jpg");
+	background-size: cover;
 }
+
 .name-detail h2{
 	font-size: 1rem;
 	color: var(--desaturatedDarkBlue);
 }
 .name-detail h3{
 	font-size: 1rem;
-	padding: 0.3rem 0;
 	color: var(--grayishBlue);
 	font-weight: 400;
 	display
 }
 .icon{
-	width: 2.5em;
-	height: 2.5em;
+	width: 2em;
+	height: 2em;
 	background-color: var(--lightGrayishBlue);
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
 	border-radius: 50%;
 }
+
+.share-div{
+	width: 15em;
+}
+.share-div strong{
+	font-size: 1.25rem;
+	font-weight: 400;
+	letter-spacing: 0.2rem;
+}
+
+.active-mobile{
+	background-color: var(--veryDarkBlue);
+	border-radius: 0 0 0.5em 0.5em;
+	flex-direction: row-reverse;
+}
+.flex-rev{
+	flex-direction: row-reverse;
+}
+
+.socials img{
+	margin-left: 0.5em;
+	height: 1.4em;
+}
+
+.flex{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.hidden{
+	display: none;
+}
+
+
 
 @media only screen and (min-width: 900px){
 	.card{
@@ -94,6 +136,9 @@ main{
 	.head-image{
 		height: 20em;
 		border-radius:  0.5em 0 0 0.5em;
+}
+.name-detail{
+	margin-left: -10em;
 }
 
 }
