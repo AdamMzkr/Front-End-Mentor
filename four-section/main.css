@@ -1,0 +1,51 @@
+:root{
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+
+  --veryDarkBlue: hsl(234, 12%, 34%);
+  --grayishBlue: hsl(229, 6%, 66%);
+  --veryLightGray: hsl(0, 0%, 98%);
+}
+  body{
+    font-family:Verdena, sans-serif;
+    background-color: var(--veryLightGray);
+    margin: 0 auto;
+  }
+
+h1{
+  padding:1em;
+  font-size:1.5rem;
+  text-align:center;
+}
+
+h1 strong{
+  font-weight:400;
+  display:block;
+}
+
+main{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+p{
+  padding:1.5em;
+}
+.card{
+  width:20em;
+  height:15em;
+  padding:1em;
+  margin:2em 0;
+  border-top:2px solid var(--red);
+  background-color: #fff;
+  box-shadow: gray 5px 10px 10px;
+}
+
+
+.card .section-title{
+  text-align:center;
+}
