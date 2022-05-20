@@ -1,19 +1,19 @@
-const shareButton = document.querySelector('#share');
+const shareButton = document.querySelector('#share1');
+const shareButtonA = document.querySelector('#share2');
 const user =document.querySelector('.user');
-const avatar=document.querySelector('.avatar');
-const detail=document.querySelector('.name-detail')
 const shareDiv=document.querySelector('.share-div');
 
 
 shareButton.addEventListener('click', e =>{
-	user.classList.toggle('active-mobile');
+	user.classList.toggle('hidden');
 
-	avatar.classList.toggle('hidden');
-	detail.classList.toggle('hidden');
 	shareDiv.classList.toggle('hidden');
 	}
-);
+	);
 
+shareButtonA.addEventListener('click', e =>{
+	user.classList.toggle('hidden');
 
-
-
+	shareDiv.classList.toggle('hidden');
+	}
+	);
