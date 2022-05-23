@@ -41,22 +41,21 @@ main{
 }
 
 .p-1{
-	padding: 0.75em 1.5em 0 1.5em;
+	padding: 1em 1.5em;
 
 }
 
 .main-title{
 	font-size: 1.2rem;
-	margin: 1.5em 0;
+	margin: 0.5em 0;
 }
 
 .user{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0.75em 1.5em;
-	margin-top: 1em;
-	height: 4.5em;
+	z-index: 1;
+	height: 5em;
 }
 
 
@@ -68,11 +67,11 @@ main{
 	background-size: cover;
 }
 
-.name-detail h2{
+.user-detail h2{
 	font-size: 1rem;
 	color: var(--desaturatedDarkBlue);
 }
-.name-detail h3{
+.user-detail h3{
 	font-size: 1rem;
 	color: var(--grayishBlue);
 	font-weight: 400;
@@ -89,23 +88,21 @@ main{
 }
 
 .share-div{
-	width: 15em;
+	width: 22em;
 	background-color: var(--veryDarkBlue);
 	border-radius: 0 0 0.5em 0.5em;
+	height: 5em;
+	z-index: 2;
+	position: relative;
 }
+
 .share-div strong{
 	font-size: 1.25rem;
 	font-weight: 400;
 	letter-spacing: 0.2rem;
 }
 
-.active-div{
-	background-color: var(--veryDarkBlue);
-	border-radius: 0 0 0.5em 0.5em;
-	flex-direction: row-reverse;
-	transition: 0.3s;
 
-}
 .flex-rev{
 	flex-direction: row-reverse;
 }
@@ -118,18 +115,26 @@ main{
 .flex{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 }
 .hidden{
 	display: none;
+	transition: 1s;
 }
 
-    .attribution { 
-    	font-size: 11px; 
-    	text-align: center; }
-    .attribution a { 
-    	color: hsl(228, 45%, 44%); }
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.box-sh{
+	box-shadow:  3px 3px 25px var(--grayishBlue);
+}
 
 
 
@@ -139,23 +144,23 @@ main{
 		flex-direction: row;
 	}
 
+
 	.head-image{
 		height: 20em;
 		border-radius:  0.5em 0 0 0.5em;
 	}
-	.name-detail{
-	margin-left: -10em;
-	}
-
-	.active-div{
-		width: 20em;
-		margin-left: 10em;
-		margin-top: -5em;
-
-	}
-
-
-
-
+    .user{
+    	display: flex ;
+    }
+    .share-div{
+    	border-radius: 0.5em;
+    	width: 17.5em;
+    	height: 3.5em;
+    	padding: 0 2.5em;
+    	margin: -9em 0 0 12em;
+    }
+    .share-div .icon{
+    	display: none;
+    }
 
 }
