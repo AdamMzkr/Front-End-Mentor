@@ -1,6 +1,7 @@
 const shareButton = document.querySelector('#share1');
 const shareButtonA = document.querySelector('#share2');
 const user =document.querySelector('.user');
+const detail=document.querySelector('.name-detail')
 const shareDiv=document.querySelector('.share-div');
 
 
@@ -17,3 +18,12 @@ shareButtonA.addEventListener('click', e =>{
 	shareDiv.classList.toggle('hidden');
 	}
 	);
+
+
+
+
+
+
+
+
+
