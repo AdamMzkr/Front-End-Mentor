@@ -8,22 +8,34 @@
   --grayishBlue: hsl(229, 6%, 66%);
   --veryLightGray: hsl(0, 0%, 98%);
 }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
   body{
     font-family:Verdena, sans-serif;
     background-color: var(--veryLightGray);
     margin: 0 auto;
+    line-height: 1.5em;
   }
 
 h1{
-  padding:1em;
-  font-size:1.5rem;
+  padding: 1em  0;
+  font-size:1.7rem;
   text-align:center;
+  font-weight:400;
+  line-height: 1.5em;
+  color: var(--grayishBlue);
 }
 
 h1 strong{
-  font-weight:400;
+  font-weight:600;
   display:block;
+  color: var(--veryDarkBlue);
 }
+
 
 main{
   display:flex;
@@ -31,21 +43,57 @@ main{
   justify-content:center;
   align-items:center;
 }
-
-p{
-  padding:1.5em;
+.container{
+  width: 20em;
 }
+.content{
+  text-align: center;
+  font-size: 1.1rem;
+  color: var(--grayishBlue);
+}
+
+
 .card{
   width:20em;
   height:15em;
-  padding:1em;
+  padding:1em 2em;
   margin:2em 0;
-  border-top:2px solid var(--red);
   background-color: #fff;
-  box-shadow: gray 5px 10px 10px;
+  box-shadow: var(--grayishBlue) 5px 5px 20px;
+  border-radius: 0.5em;
+  color: var(--grayishBlue);
 }
 
 
 .card .section-title{
-  text-align:center;
+  text-align:left;
+  margin: 0.5em 0;
+  color: var(--veryDarkBlue);
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+  text-decoration: none;
+}
+
+#super{ 
+  border-top:4px solid var(--cyan);
+}
+#team{
+   border-top:4px solid var(--red);
+}
+#karma{
+   border-top:4px solid var(--orange);
+}
+#calc{
+   border-top:4px solid var(--blue);
+}
+.image{
+  position: realtive;
+
+  margin: 2em 0 0 12em;
 }
