@@ -20,6 +20,12 @@
     margin: 0 auto;
     line-height: 1.5em;
   }
+  .flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
 h1{
   padding: 1em  0;
@@ -31,6 +37,7 @@ h1{
 }
 
 h1 strong{
+  font-size: 1.7rem;
   font-weight:600;
   display:block;
   color: var(--veryDarkBlue);
@@ -54,7 +61,7 @@ main{
 
 
 .card{
-  width:20em;
+  width:22em;
   height:15em;
   padding:1em 2em;
   margin:2em 0;
@@ -74,9 +81,10 @@ main{
 .attribution { 
   font-size: 11px; 
   text-align: center; 
+  color: var(--veryDarkBlue);
 }
 .attribution a { 
-  color: hsl(228, 45%, 44%); 
+  color: var(--blue);
   text-decoration: none;
 }
 
@@ -96,4 +104,35 @@ main{
   position: realtive;
 
   margin: 2em 0 0 12em;
+}
+
+/*desktop screens*/
+@media only screen and (min-width: 900px){
+
+  .flex{
+    flex-direction: row;
+  }
+  .container{
+    width: 80%;
+  }
+  .card{
+    margin: 1.5em;
+  }
+  .content{
+    margin: 0 auto;
+    width: 30em;
+    padding-bottom: 1em;
+  }
+  h1{
+    font-size: 2.2rem;
+    margin: 0em 0;
+    padding: 1em;
+  }
+  h1 strong{
+    font-size: 2.2rem;
+  }
+  .middle .card{
+    margin: 2em 0;
+
+  }
 }
