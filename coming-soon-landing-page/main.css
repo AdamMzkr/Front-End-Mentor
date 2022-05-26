@@ -1,0 +1,63 @@
+:root{
+	--desaturatedRed: hsl(0, 36%, 70%);
+	--softRed: hsl(0, 93%, 68%);
+	--darkGrayishRed: hsl(0, 6%, 24%);
+	/*--bodyG :linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%);*/
+	--bodyG: Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%);
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Verdana", sans-serif;
+}
+body{
+	background-color: var(--bodyG);
+}
+
+.attribution { 
+	font-size: 11px; 
+	text-align: center; 
+}
+.attribution a { 
+	color: hsl(228, 45%, 44%); 
+}
+
+.hero-image{
+	background: url(images/hero-mobile.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 20em;
+}
+.top-header{
+	padding: 2em 4em;
+}
+
+.content{
+	padding:0  4em;
+}
+
+#main-heading{
+	margin: 0.75em;
+	font-size: 3.5rem;
+	text-transform: uppercase;
+	letter-spacing: 0.25rem;
+	text-align: center;
+}
+.text{
+	text-align: center;
+	line-height: 1.5rem;
+}
+ input{
+ 	padding: 2em;
+ 	margin: 1em 0;
+ 	display: block;
+ 	width: 100%;
+ 	height: 3em;
+ 	border-radius: 2em;
+ }
+ #error{
+ 	padding: 0 2em;
+ 	display: none;
+ }
