@@ -2,8 +2,11 @@
 	--desaturatedRed: hsl(0, 36%, 70%);
 	--softRed: hsl(0, 93%, 68%);
 	--darkGrayishRed: hsl(0, 6%, 24%);
-	/*--bodyG :linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%);*/
-	--bodyG: Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%);
+
+	/*gardients-color*/
+	/*Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%);*/
+	--color1: hsl(0, 0%, 100%);
+	--color2: hsl(0, 100%, 98%);
 }
 
 *{
@@ -13,16 +16,13 @@
 	font-family: "Verdana", sans-serif;
 }
 body{
-	background-color: var(--bodyG);
+	background: linear-gradient(130deg, var(--color2), var(--color1));
+}
+.flex{
+	display: flex;
+	flex-direction: column;
 }
 
-.attribution { 
-	font-size: 11px; 
-	text-align: center; 
-}
-.attribution a { 
-	color: hsl(228, 45%, 44%); 
-}
 
 .hero-image{
 	background: url(images/hero-mobile.jpg);
@@ -36,9 +36,15 @@ body{
 
 .content{
 	padding:0  4em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
 }
 
 #main-heading{
+	font-weight: 300;
 	margin: 0.75em;
 	font-size: 3.5rem;
 	text-transform: uppercase;
@@ -61,3 +67,70 @@ body{
  	padding: 0 2em;
  	display: none;
  }
+ .attribution { 
+	font-size: 11px; 
+	text-align: center; 
+	padding: 1em 0;
+}
+.attribution a { 
+	color: hsl(228, 45%, 44%); 
+	text-decoration: none;
+	color: var(--softRed);
+}
+
+@media only screen and (min-width: 900px){
+	body{
+		background-image: url(images/bg-pattern-desktop.svg);
+		background-position: left;
+		background-size: 65%;
+		background-repeat: no-repeat;
+	}
+
+	.flex{
+		flex-direction: row-reverse;
+	}
+	.top-header{
+		width: 55%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	img{
+		margin-left: -4em;
+	}
+
+	.hero-image{
+		background: url(images/hero-desktop.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 40%;
+		height: 104.5vh;
+		margin-top: -9em;
+	}
+	.content{
+		width: 55%;
+		height: 60vh
+	}
+	.text{
+		text-align: left;
+		width: 27.5rem;
+		line-height: 1.75rem;
+	}
+	#main-heading{
+		width: 27.5rem;
+		margin: 1em 0  0.25em 0;
+		text-align: left;
+		font-size: 6rem;
+	}
+	input{
+		width: 27.5rem;
+	}
+
+	.attribution{
+		margin: -10em 0;
+		padding-right: 35%;
+	}
+
+
+
+}
