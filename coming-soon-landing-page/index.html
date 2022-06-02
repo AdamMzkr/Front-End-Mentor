@@ -19,7 +19,7 @@
 <body>
   <main>
     <header class ="top-header">
-      <img src="images/logo.svg" alt="logo">
+      <img id="logo" src="images/logo.svg" alt="logo">
     </header>
     <div class="container flex">
       <div class="hero-image"></div>
@@ -29,9 +29,13 @@
 
         <p class="text">Hello fellow shoppers! We're currently building our new fashion store. 
         Add your email below to stay up-to-date with announcements and our launch deals.</p>
-
-        <input type="e-mail" name="email" placeholder="Email Address">
-        <span id="error"> Invalid e-mail</span>
+        <div class ="input-div">
+            <input type="e-mail" name="email" placeholder="Email Address">
+            <button id="btn-arrow" class="flex-c">
+              <img src="images/icon-arrow.svg" alt="arrow icon">
+            </button>
+        </div>
+        <span  id="error"> Invalid e-mail</span>
       
       </div><!--content/>-->
     </div> <!-- container/> -->
