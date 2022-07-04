@@ -106,6 +106,25 @@ main{
     color: hsl(228, 45%, 44%); 
   }
 
+  .error{
+  background:	url(images/icon-error.svg) no-repeat scroll 7px 7px;
+  background-size: 25px;
+  background-position: 95% 1em;
+  border: 2px solid var(--red)!important;
+  }
+
+  .error-M{
+  	color: var(--red);
+  	font-size: 0.75em;
+  	float: right;
+  	font-style: italic;
+  	font-weight: 600;
+  	padding: 0 2em 1.5em 0;
+  }
+  .hidden{
+  	display: none;
+  }
+
 
 
 	@media only screen and (min-width: 1000px) {
