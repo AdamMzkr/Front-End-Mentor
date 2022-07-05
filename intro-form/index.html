@@ -26,25 +26,40 @@
       <p class="descript">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
       but understanding how developers think is invaluable. </p>
   </section>
-  <section class="formular">
+  <section class="formular" name="myForm" method= "post" required>
       <button class ="trial"><strong>Try it free 7 days</strong> then $20/mo. thereafter</button>
-      <div class="formulary">
-        <input   id="firstN" type="text" name="FirstName" placeholder="First Name">
-        <span  id="firstN-err" class="error-M hidden"> First Name cannot be empty</span>
+      <form class="formulary" onsubmit="return validateform()">
 
-        <input type="text" name="LastName" placeholder="Last Name">
-        <span class="error-M hidden"> Last Name cannot be empty</span>
+        <input  id="firstN" type="text" name="FirstName" placeholder="First Name">
+        <span   id="errorM" class= "errorMes" role="alert" aria-hidden="true">First Name cannot be empty</span>
 
-        <input type="e-mail" name="e-mail" placeholder="Email Adress">
-        <span class="error-M hidden">Looks like this is not an email</span>
 
-        <input type="password" name="Password" placeholder="Password">
-        <span class="error-M hidden"> Password cannot be empty</span>
 
-      <button id="butt"class ="claim" type="submit">Claim your free trial</button> 
+
+
+        <input id="lastN" type="text" name="LastName" placeholder="Last Name">
+        <span  class= "errorMes"role="alert" aria-hidden="true" >First Name cannot be empty</span>
+        
+
+        <input id="email" type="e-mail" name="e-mail" placeholder="Email Adress">
+        <span  class= "errorMes"role="alert" aria-hidden="true" >Looks like this is not an email</span>
+        
+        <input id="password" type="password" name="Password" placeholder="Password">
+        <span  class= "errorMes" role="alert" aria-hidden="true">Password cannot be empty</span>
+        
+
+      <button id="submit" class ="claim" type="submit">Claim your free trial</button> 
       <p> By clicking the button, you are agreeing to our <strong>Terms and Services</strong></p>
-  </div>
+  </form>
 </section>
+
+<!-- <form name="myForm"  onsubmit="return validateForm()" method="post" required>
+  Name: <input type="text" name="fname">
+  <input type="submit" value="Submit">
+</form> -->
+
+
+
 
   
   </main>
