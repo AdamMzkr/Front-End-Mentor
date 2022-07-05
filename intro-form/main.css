@@ -113,18 +113,23 @@ main{
   border: 2px solid var(--red)!important;
   }
 
-  .error-M{
+  .sucess{
+  	border: 2px solid green;
+  }
+
+  .errorMes{
   	color: var(--red);
   	font-size: 0.75em;
   	float: right;
   	font-style: italic;
   	font-weight: 600;
   	padding: 0 2em 1.5em 0;
-  }
-  .hidden{
   	display: none;
   }
-
+  #errorM.visible{
+  	display: block;
+  }
+  
 
 
 	@media only screen and (min-width: 1000px) {
