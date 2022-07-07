@@ -104,6 +104,7 @@ main{
  }
   .attribution a { 
     color: hsl(228, 45%, 44%); 
+    text-decoration: none;
   }
 
   .error{
@@ -113,9 +114,11 @@ main{
   border: 2px solid var(--red)!important;
   }
 
-  .sucess{
-  	border: 2px solid green;
+
+  .error::placeholder{
+  	color: var(--red);
   }
+
 
   .errorMes{
   	color: var(--red);
@@ -126,6 +129,7 @@ main{
   	padding: 0 2em 1.5em 0;
   	display: none;
   }
+
   .errorMes.visible{
   	display: block;
   }
