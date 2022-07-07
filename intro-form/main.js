@@ -7,22 +7,39 @@ const password =document.querySelector('#password');
 const errors =document.querySelectorAll('.errorMes');
 
 //submit button
-const submit= document.querySelector('#submit');
+const form= document.querySelector('form');
 
-
-submit.addEventListener( 'click', function(e){
-
-
-
-e.preventDefault();
-
-validateNotEmpty(name,errors[0]);
-validateNotEmpty(lName,errors[1]);
-validateEmail(email,errors[2]);
-validateNotEmpty(password,errors[3]);
-
+//check when submit form
+form.addEventListener( 'submit', function(e){
+  e.preventDefault();
+  checkAllnotEmpty();
 }
   );
+//check when cange data in input
+form.addEventListener( 'input', function(e){
+  e.preventDefault();
+  checkAllnotEmpty();
+}
+  );
+
+form.addEventListener("keyup", function(e) {
+  if (event.keyCode === 13){
+    e.preventDefault();
+    checkAllnotEmpty();  
+    }
+});
+
+
+
+function checkAllnotEmpty(){
+  
+  validateNotEmpty(name,errors[0]);
+  validateNotEmpty(lName,errors[1]);
+  validateEmail(email,errors[2]);
+  validateNotEmpty(password,errors[3]);
+
+}
+
 
 
 function validateNotEmpty(input, error) {
@@ -46,14 +63,13 @@ function validateNotEmpty(input, error) {
   return valid;
 }
 
+//check email
+function validateEmail(mail,error){
 
-function validateEmail(mail,error) 
-{
- if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(mail))
+ if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(mail.value))
   {
-    error.classList.remove("visible");
-    input.classList.remove("error");
-
+     error.classList.remove("visible");
+     mail.classList.remove("error");
     return (true)
   }
     error.classList.add("visible");
@@ -61,7 +77,8 @@ function validateEmail(mail,error)
     mail.placeholder='example@mail.com';
     error.setAttribute('aria-hidden', false);
     error.setAttribute('aria-invalid', true);
-    
     return (false)
 }
+
+
 
