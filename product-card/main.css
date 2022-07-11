@@ -1,6 +1,8 @@
 
 :root{
 --darkCyan: hsl(158, 36%, 37%);
+--veryDarkCyan: hsl(158, 36%, 20%);
+
 --cream: hsl(30, 38%, 92%);
 
 
@@ -27,6 +29,8 @@ main{
 }
 
 .card{
+	display: flex;
+	flex-direction: column;
 	width: 22em;
 	background-color: var(--white);
 	border-radius: 0.75em;
@@ -96,6 +100,10 @@ main{
 	font-weight: 700;
 }
 
+.btn:hover{
+	background-color: var(--veryDarkCyan);
+}
+
 .icon{
 	margin: 0 1em 0 0;
 }
@@ -108,6 +116,27 @@ main{
  .attribution a { 
  	color: var(--darkCyan); 
  	text-decoration: none;
+ }
+
+
+ @media  only screen and ( min-width: 800px){
+
+ 	.card{
+ 		width: 36em;
+ 		flex-direction: row;
+ 	}
+
+ 	.header-img{
+ 		background: url('images/image-product-desktop.jpg');
+ 		border-radius: 0.5em 0 0 0.5em;
+ 		background-size: cover;
+ 		width: 55%;
+ 		height: 27em;
+ 	}
+ 	.container{
+ 		width: 45%;
+ 	}
+
  }
 
 
