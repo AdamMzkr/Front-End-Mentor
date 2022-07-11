@@ -5,7 +5,7 @@
 
 
 --veryDarkBlue: hsl(212, 21%, 14%);
---darkGrayish blue: hsl(228, 12%, 48%);
+--darkGrayishBlue: hsl(228, 12%, 48%);
 --white: hsl(0, 0%, 100%);
 }
 
@@ -16,7 +16,7 @@
 
 body{
 	background-color: var(--cream);
-	font-family: 'Verdana', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 main{
@@ -29,34 +29,85 @@ main{
 .card{
 	width: 22em;
 	background-color: var(--white);
+	border-radius: 0.75em;
 }
 .header-img{
 	height: 15em;
-	background-color: var(--darkCyan);
+	background: url('images/image-product-mobile.jpg');
+	background-size: cover;
+	border-radius:  0.75em 0.75em 0 0;
 }
 .container{
 	padding: 0 1.5em;
+
 }
 .sub-header{
-	font-size: 1rem;
+	font-size: 0.8rem;
 	text-transform: uppercase;
 	font-weight: 400;
 	letter-spacing: 0.2rem;
-	padding: 0.75rem 0;
+	padding: 1.5em  0 0.75em 0;
+	color: var(--darkGrayishBlue);
 }
 .main-header{
 	font-size: 2rem;
 	font-weight: 600;
+	font-family: 'Fraunces', serif;
+	color: var(--veryDarkBlue);
 }
 
 .content{
+	font-size: 0.8rem;
 	padding: 1em 0;
+	color: var(--darkGrayishBlue);
+	line-height: 1.75em;
+	font-weight: 500;
 }
 .prices{
-	height: 5em;
+	height: 3em;
+	padding: 0.75em 0;
 	display: flex;
+	justify-content: start;
+	align-items: end;
 }
 .new-price{
-	
+	font-size: 2rem;
+	color: var(--darkCyan);
+	font-family: 'Fraunces', serif;
 }
+.old-price{
+	font-size: 0.9rem;
+	margin: 0  0 0.8em 2em;
+	text-decoration: line-through ;
+	color: var(--darkGrayishBlue);
+}
+
+
+.btn{
+	font-size: 0.9rem;
+	display: block;
+	width: 100%;
+	padding: 1em;
+	border:  1px solid var(--darkCyan);
+	border-radius: 0.75em;
+	color: var(--white);
+	background-color: var(--darkCyan);
+	margin:  0 0  2em 0;
+	font-weight: 700;
+}
+
+.icon{
+	margin: 0 1em 0 0;
+}
+
+ .attribution { 
+ 	font-size: 11px; 
+ 	text-align: center; 
+ }
+
+ .attribution a { 
+ 	color: var(--darkCyan); 
+ 	text-decoration: none;
+ }
+
 
