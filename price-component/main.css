@@ -2,6 +2,7 @@
 	--cyan: hsl(179, 62%, 43%);
 	--lighterCyan: hsl(179, 60%, 46%);
     --brightYellow: hsl(71, 73%, 54%);
+    --brightYellowH: hsl(71, 73%, 74%);
 	--lightGray: hsl(204, 43%, 93%);
 	--grayishBlue: hsl(218, 22%, 67%);
 	--white: hsl(255, 100%, 100%);
@@ -15,7 +16,7 @@
 
 body{
 	background-color: var(--lightGray);
-	font-family: sans-serif;
+	font-family: 'Karla', sans-serif;
 }
 main{
 	display: flex;
@@ -25,26 +26,36 @@ main{
 }
 .container{
 	width: 20em;
+	border-radius: 0.5em;
+	box-shadow: 2px 5px 35px var(--grayishBlue);
 }
 .grid{
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr 0.7fr 1fr;
+	grid-template-areas: 
+	"join"
+	"subs"
+	"why-us";
 }
 
 #join{
 	background-color:var(--white);
 	color: var(--grayishBlue);
 	line-height: 1.5em;
+	grid-area: join;
+	border-radius: 0.5em 0.5em 0 0;
 }
 #subscript{
 	background-color: var(--cyan);
 	color: var(--white);
+	grid-area:subs;
 }
 #why-us{
 	background-color: var(--lighterCyan);
 	color: var(--white);
-	height: 70%;
+	grid-area: why-us;
+	border-radius:  0 0 .5em 0.5em ;
 }
 section{
 	padding: 2em 1.5em;
@@ -89,6 +100,10 @@ section{
 	background-color: var(--brightYellow);
 	color: var(--white);
 	font-weight: 600;
+	box-shadow: 2px 5px 10px var(--lighterCyan);
+}
+.btn:hover{
+	background-color: var(--brightYellowH);
 }
 #why-us ul{
 	list-style: none;
@@ -97,9 +112,41 @@ section{
 #why-us ul li{
 	margin: 0.25em 0;
 }
-
-
+.attribution 
+	{ 
+	font-size: 11px; 
+	text-align: center; 
 }
+.attribution a { 
+    color: var(--cyan);
+    text-decoration: none;
+}
+
+
+@media only screen and (min-width: 900px){
+	.container{
+		width: 50em;
+	}
+    #subscript{
+		border-radius:  0 0 0 0.5em;
+	}
+	#why-us{
+		border-radius:  0 0 .5em 0 ;
+	}
+	.grid{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr  1.5fr;
+		grid-template-areas: 
+		"join join"
+		"subs why-us";
+	}
+	.btn{
+		margin: 1.5em 0;
+	}
+}
+
+
 
 
 
