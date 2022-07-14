@@ -1,0 +1,113 @@
+:root{
+
+--blue: hsl(223, 87%, 63%);
+--paleBlue: hsl(223, 100%, 88%);
+--lightRed: hsl(354, 100%, 66%);
+--gray: hsl(0, 0%, 59%);
+--veryDarkBlue: hsl(209, 33%, 12%);
+--white:  hsl(255,100%,100%);
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'sans-serif';
+}
+
+main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 110vh;
+}
+
+.container{
+	width: 20em;
+}
+header{
+	text-align: center;
+	padding: 1.5em;
+}
+.main-heading{
+	margin: 1.5em 0;
+	font-size: 1.25rem;
+	color: var(--gray);
+	font-weight: 400;
+}
+.main-heading strong{
+	color: var(--veryDarkBlue);
+}
+.sub-heading{
+	font-size: 0.8rem;
+	font-weight: 400;
+	color: var(--veryDarkBlue);
+}
+.main-image{
+    width: 20em;
+}
+#formular{
+	padding: 1em;
+	align-items: center;
+}
+input::placeholder{
+	color: var(--paleBlue);
+}
+
+.round{
+	width: 100%;
+	border-radius: 2em;
+	border: 1px solid var(--paleBlue);
+	padding: 1em 1.5em;
+}
+.btn{
+	color: var(--white);
+	background-color: var(--blue);
+	margin: 1em 0;
+	font-weight: 600;
+}
+#social{
+	text-align: center;
+	margin-top: 3em;
+}
+#social span{
+	text-align: center;
+	color: var(--gray);
+	font-size: 0.7rem;
+}
+
+.attribution { 
+ 	font-size: 11px; 
+ 	text-align: center; 
+ 	color: var(--veryDarkBlue);
+}
+.attribution a { 
+    color: var(--blue); 
+    text-decoration: none;
+}
+#icons-row{
+	margin:auto;
+	display: flex;
+	flex-direction: row;
+	width: 8em;
+	justify-content: space-between;
+}
+.icon-circle{
+	border:  1px solid var(--blue);
+	width: 2em;
+	height: 2em;
+	border-radius: 50%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon{
+width: 15px;
+height: 15px;
+}
+
+
