@@ -8,7 +8,10 @@
   
   <title>Frontend Mentor | Ping coming soon page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
@@ -21,32 +24,41 @@
         <h2 class="sub-heading">Subscribe and get notified</h2>
       </header>
       <section id="formular">
-        <input class="round" id="e-mail"type="e-mail" name="email" placeholder="Your email ardess...">
-        <button id ="but"class="btn round">Notify Me</button>
+        <form class="flex">
+          <div class="input-arr">
+          <input class="round" id="e-mail" type="email" name="email" placeholder="Your email ardess...">
+           <span id="error">Please provide a valid email address</span>
+           </div>
+         
+          <button id ="but" class="btn round" type="submit">Notify Me</button>
+        </form>
+       
       </section>
       <img class="main-image" src="images/illustration-dashboard.png" alt="dashboard ilustration">
       <section id="social">
         <div id="icons-row">
           <div class="icon-circle">
-            <img  class="icon"src="images/icons/fb-icon.svg" alt="facebook logo">
+            <img  class="icon" src="images/icons/fb-icon.svg" alt="facebook logo">
           </div>
           <div class="icon-circle">
-            <img  class="icon"src="images/icons/twit-icon.svg" alt="twitter logo">
+            <img  class="icon" src="images/icons/twit-icon.svg" alt="twitter logo">
           </div>
           <div class="icon-circle">
-            <img  class="icon"src="images/icons/insta-icon.svg" alt="instagram logo">
+            <img  class="icon" src="images/icons/insta-icon.svg" alt="instagram logo">
           </div>
         </div>
-        <span>&copy; Copyright Ping. All rights reserved.</span>
+        <h4 class="copy">&copy; Copyright Ping. All rights reserved.</h4>
       </section>
   </div>
 </main>
 
-  <footer>
-    <p class="attribution">
+  <footer class="attribution">
+    <small >
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Adam M</a>.
-    </p>
+    </small>
   </footer>
+
+<script src="main.js"></script>
 </body>
 </html>
