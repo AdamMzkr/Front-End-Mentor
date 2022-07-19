@@ -8,45 +8,52 @@
   
   <title>Frontend Mentor | Ping coming soon page</title>
 
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
+
 <body>
   <main>
     <div class="container">
       <header>
         <img  class="logo" src="images/logo.svg" alt="logo">
         <h1 class="main-heading">We are launching <strong>soon!</strong></h1>
-
         <h2 class="sub-heading">Subscribe and get notified</h2>
       </header>
+
       <section id="formular">
-        <form class="flex">
+        <form id="form" class="flex">
+      
           <div class="input-arr">
-          <input class="round" id="e-mail" type="email" name="email" placeholder="Your email ardess...">
-           <span id="error">Please provide a valid email address</span>
+              <input class="round" id="e-mail" type="email" name="email" placeholder="Your email ardess...">
+              <span id="error-mess" class="hidden">Please provide a valid email address</span>
            </div>
-         
+      
           <button id ="but" class="btn round" type="submit">Notify Me</button>
+
         </form>
-       
       </section>
+
       <img class="main-image" src="images/illustration-dashboard.png" alt="dashboard ilustration">
+
       <section id="social">
         <div id="icons-row">
           <div class="icon-circle">
             <img  class="icon" src="images/icons/fb-icon.svg" alt="facebook logo">
           </div>
+
           <div class="icon-circle">
             <img  class="icon" src="images/icons/twit-icon.svg" alt="twitter logo">
           </div>
+
           <div class="icon-circle">
             <img  class="icon" src="images/icons/insta-icon.svg" alt="instagram logo">
           </div>
         </div>
+
         <h4 class="copy">&copy; Copyright Ping. All rights reserved.</h4>
       </section>
   </div>
@@ -55,7 +62,7 @@
   <footer class="attribution">
     <small >
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Adam M</a>.
+      Coded by <a href="https://github.com/AdamMzkr">Adam M</a>.
     </small>
   </footer>
 
