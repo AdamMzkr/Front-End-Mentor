@@ -32,4 +32,4 @@ This was my first challenge on front-end mentor good warm-up before bigger chall
 
 - Website - [Adam M](https://github.com/AdmMzkr)
 - Frontend Mentor - [@AdmMzkr](https://www.frontendmentor.io/profile/AdamMzkr)
-- Email - [Adam M](adm.mzkr@gmail.com)
+- Email - [adm.mzkr@gmail.com](adm.mzkr@gmail.com)
