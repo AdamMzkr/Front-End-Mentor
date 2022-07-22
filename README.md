@@ -11,5 +11,5 @@ All my Front-End Mentor challenge solutions
 
 ### Stats preview card component
 -See live [Stats preview card component](https://adammzkr.github.io/Front-End-Mentor/stats-card-component/index.html)
--Repo [Stats preview card component](https://github.com/AdamMzkr/Front-End-Mentor/tree/main/stats-card-component)
+-Repo [Stats preview card component CODE](https://github.com/AdamMzkr/Front-End-Mentor/tree/main/stats-card-component)
  
