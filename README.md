@@ -5,8 +5,11 @@ All my Front-End Mentor challenge solutions
 -See live [QR-code-component](https://adammzkr.github.io/Front-End-Mentor/QR-code-component/index.html)
 -Repo [QR-code-component CODE](https://github.com/AdamMzkr/Front-End-Mentor/tree/main/QR-code-component)
  
- 
  ### Interactive rating component
 -See live [Interactive rating component](https://adammzkr.github.io/Front-End-Mentor/interactive-rates-component/index.html)
 -Repo [Interactive rating component CODE](https://github.com/AdamMzkr/Front-End-Mentor/tree/main/interactive-rates-component)
+
+### Stats preview card component
+-See live [Stats preview card component](https://adammzkr.github.io/Front-End-Mentor/stats-card-component/index.html)
+-Repo [Interactive rating component CODE](https://github.com/AdamMzkr/Front-End-Mentor/tree/main/stats-card-component)
  
