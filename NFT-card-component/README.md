@@ -16,7 +16,7 @@ This challenge was to build out this QR code component and get it looking as clo
 This was my first challenge on front-end mentor good warm-up before bigger challenges :)
 
 ### Screenshot
-![](images/Qr-component-view.png)
+![](images/NFT-card-view.png)
 
 ### Links 
 
