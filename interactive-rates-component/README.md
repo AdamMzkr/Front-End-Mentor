@@ -25,7 +25,7 @@ Your users should be able to:
 
 ### Links 
 
--Live weebsite -[see live](https://adammzkr.github.io/Front-End-Mentor/interactive-rates-component/index.html)
+-Live website -[see live](https://adammzkr.github.io/Front-End-Mentor/interactive-rates-component/index.html)
 
 
 ### Built with
