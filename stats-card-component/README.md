@@ -1,4 +1,4 @@
-# Frontend Mentor - QR code component solution
+# Frontend Mentor - Stats preview card component
 
 This is a solution to the [Stats preview card component](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62/hub/responisve-flexbox-preview-card-H1FSHw_mq). 
 
