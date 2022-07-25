@@ -22,7 +22,7 @@ Your users should be able to:
 
 ### Links 
 
--Live weebsite -[see live](https://adammzkr.github.io/Front-End-Mentor/stats-card-component/index.html)
+-Live website -[see live](https://adammzkr.github.io/Front-End-Mentor/stats-card-component/index.html)
 
 
 ### Built with
