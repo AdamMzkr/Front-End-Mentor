@@ -20,7 +20,7 @@ This was my first challenge on front-end mentor good warm-up before bigger chall
 
 ### Links 
 
--Live weebsite -[see live](https://adammzkr.github.io/Front-End-Mentor/NFT-card-component/index.html)
+-Live website -[see live](https://adammzkr.github.io/Front-End-Mentor/NFT-card-component/index.html)
 
 
 ### Built with
