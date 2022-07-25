@@ -19,7 +19,7 @@ This challenge was to build out this Stats preview card component and get it loo
 
 ### Links 
 
--Live weebsite -[see live](https://adammzkr.github.io/Front-End-Mentor/profile-card-component/index.html)
+-Live website -[see live](https://adammzkr.github.io/Front-End-Mentor/profile-card-component/index.html)
 
 
 ### Built with
