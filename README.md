@@ -32,6 +32,9 @@ All my Front-End Mentor challenge solutions
 ### Social proof section
 - See live [Social proof section](https://adammzkr.github.io/Front-End-Mentor/social-section/index.html)
 - Repo [Social proof section CODE](https://github.com/AdamMzkr/Front-End-Mentor/tree/main/social-section)
- 
+
+### Article preview component
+- See live [Article preview component](https://adammzkr.github.io/Front-End-Mentor/article-preview/index.html)
+- Repo [Article preview component CODE](https://github.com/AdamMzkr/Front-End-Mentor/tree/main/article-preview)
  
  
