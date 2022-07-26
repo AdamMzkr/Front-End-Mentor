@@ -1,4 +1,4 @@
-# Front-End-Mentor
+# F R O N T- E N D   M E N T O R
 All my Front-End Mentor challenge solutions
 
 ### QR code component
