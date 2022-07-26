@@ -26,8 +26,12 @@ All my Front-End Mentor challenge solutions
 - Repo [Profile card component CODE](https://github.com/AdamMzkr/Front-End-Mentor/tree/main/profile-card-component)
 
 ### 3-column preview card component
-- See live [Profile card component](https://adammzkr.github.io/Front-End-Mentor/3card-component/index.html)
+- See live [3-column preview card component](https://adammzkr.github.io/Front-End-Mentor/3card-component/index.html)
 - Repo [3-column preview card component CODE](https://github.com/AdamMzkr/Front-End-Mentor/tree/main/3card-component)
+
+### Social proof section
+- See live [Social proof section](https://adammzkr.github.io/Front-End-Mentor/3card-component/index.html)
+- Repo [Social proof section CODE](https://github.com/AdamMzkr/Front-End-Mentor/tree/main/3card-component)
  
  
  
