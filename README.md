@@ -30,8 +30,8 @@ All my Front-End Mentor challenge solutions
 - Repo [3-column preview card component CODE](https://github.com/AdamMzkr/Front-End-Mentor/tree/main/3card-component)
 
 ### Social proof section
-- See live [Social proof section](https://adammzkr.github.io/Front-End-Mentor/3card-component/index.html)
-- Repo [Social proof section CODE](https://github.com/AdamMzkr/Front-End-Mentor/tree/main/3card-component)
+- See live [Social proof section](https://adammzkr.github.io/Front-End-Mentor/social-section/index.html)
+- Repo [Social proof section CODE](https://github.com/AdamMzkr/Front-End-Mentor/tree/main/social-section)
  
  
  
