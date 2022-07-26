@@ -36,5 +36,9 @@ All my Front-End Mentor challenge solutions
 ### Article preview component
 - See live [Article preview component](https://adammzkr.github.io/Front-End-Mentor/article-preview/index.html)
 - Repo [Article preview component CODE](https://github.com/AdamMzkr/Front-End-Mentor/tree/main/article-preview)
+
+### FAQ accordion card
+- See live [FAQ accordion card](https://adammzkr.github.io/Front-End-Mentor/FAQ-component/index.html)
+- Repo [FAQ accordion card CODE](https://github.com/AdamMzkr/Front-End-Mentor/tree/main/FAQ-component)
  
  
