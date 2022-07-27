@@ -40,5 +40,9 @@ All my Front-End Mentor challenge solutions
 ### FAQ accordion card
 - See live [FAQ accordion card](https://adammzkr.github.io/Front-End-Mentor/FAQ-component/index.html)
 - Repo [FAQ accordion card CODE](https://github.com/AdamMzkr/Front-End-Mentor/tree/main/FAQ-component)
+
+### Four card feature section
+- See live [Four card feature section](https://adammzkr.github.io/Front-End-Mentor/four-section/index.html)
+- Repo [Four card feature section CODE](https://github.com/AdamMzkr/Front-End-Mentor/tree/main/four-section)
  
  
