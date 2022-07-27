@@ -21,7 +21,7 @@ Your users should be able to:
 
 ### Links 
 
--Live website -[see live](https://adammzkr.github.io/Front-End-Mentor/four-section/index.htm)
+-Live website -[see live](https://adammzkr.github.io/Front-End-Mentor/four-section/index.html)
 
 
 ### Built with
