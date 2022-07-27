@@ -17,7 +17,7 @@ Your users should be able to:
 - View the optimal layout for the component depending on their device's screen size
 
 ### Screenshot
-![](images/four-section-view.png)
+![](images/four-section.png)
 
 ### Links 
 
