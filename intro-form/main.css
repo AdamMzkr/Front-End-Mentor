@@ -136,10 +136,10 @@ main{
   
 
 
-	@media only screen and (min-width: 1000px) {
-		body{
-			background-image: url(images/bg-intro-desktop.png);
-		}
+@media only screen and (min-width: 1000px) {
+  body{
+	background-image: url(images/bg-intro-desktop.png);
+	}
   
   main{
   	flex-direction: row;
@@ -158,13 +158,13 @@ main{
  .main-heading{
   	text-align: left;
   	font-size: 3rem;
-  	padding-right:4em ;
+  	padding-right:3em ;
   	margin: 0.5em 0;
  }
  
  .descript{
  	text-align: left;
- 		padding-right:5em ;
+ 		padding-right:3em ;
  		font-size: 1.25rem;
  }
 
