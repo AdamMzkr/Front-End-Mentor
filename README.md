@@ -48,5 +48,9 @@ All my Front-End Mentor challenge solutions
 ### Base Apparel coming soon page
 - See live [Base Apparel landing page](https://adammzkr.github.io/Front-End-Mentor/coming-soon-landing-page/index.html)
 - Repo [Base Apparel landing page CODE](https://github.com/AdamMzkr/Front-End-Mentor/tree/main/coming-soon-landing-page)
+
+### Product preview card component
+- See live [Product card ](https://adammzkr.github.io/Front-End-Mentor/product-card/index.html)
+- Repo [Product card  CODE](https://github.com/AdamMzkr/Front-End-Mentor/tree/main/product-card)
  
  
