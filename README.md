@@ -1,5 +1,5 @@
-# FRONT-END MENTOR
-All my Front-End Mentor challenge solutions
+# FRONT-END MENTOR [NEWBIE level]
+All my Front-End Mentor challenge solutions 
 
 ### #1 QR code component
 - See live [QR-code-component](https://adammzkr.github.io/Front-End-Mentor/QR-code-component/index.html)
