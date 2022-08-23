@@ -46,7 +46,7 @@ All my Front-End Mentor challenge solutions
 - Repo [Four card feature section CODE](https://github.com/AdamMzkr/Front-End-Mentor/tree/main/four-section)
 
 ### Base Apparel coming soon page
-- See live [Four card feature section](https://adammzkr.github.io/Front-End-Mentor/coming-soon-landing-page/index.html)
-- Repo [Four card feature section CODE](https://github.com/AdamMzkr/Front-End-Mentor/tree/main/coming-soon-landing-page)
+- See live [Base Apparel landing page](https://adammzkr.github.io/Front-End-Mentor/coming-soon-landing-page/index.html)
+- Repo [Base Apparel landing page CODE](https://github.com/AdamMzkr/Front-End-Mentor/tree/main/coming-soon-landing-page)
  
  
