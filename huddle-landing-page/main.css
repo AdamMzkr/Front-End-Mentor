@@ -1,55 +1,60 @@
-:root{
-	--violet: hsl(257, 40%, 49%);
-    --softMagenta: hsl(300, 69%, 71%);
-    --white: hsl(0, 0%, 100%);
+:root {
+  --violet: hsl(257, 40%, 49%);
+  --softMagenta: hsl(300, 69%, 71%);
+  --white: hsl(0, 0%, 100%);
 }
-*{
-	margin: 0;
-	padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-	background-color: var(--violet);
-	background-image: url(images/bg-mobile.svg);
-	color: var(--white);
-	font-family: sans-serif;
+body {
+  background-color: var(--violet);
+  background-image: url(images/bg-mobile.svg);
+  color: var(--white);
+  font-family: sans-serif;
 }
-main{
-	padding: 2em ;
+main {
+  padding: 2em;
 }
-.tc{
-	text-align: center;
+.tc {
+  text-align: center;
 }
-.container{
+.container {
 }
-.logo{
-	width: 8em;
-	margin: 0 0 2em 0;
+.logo {
+  width: 8em;
+  margin: 0 0 2em 0;
 }
-.illustration{
-	max-width: 20em
+.illustration {
+  max-width: 20em;
 }
-h1{
-	font-size: 1.75rem;
-	margin: 2em 0 0.75em 0;
+h1 {
+  font-size: 1.75rem;
+  margin: 2em 0 0.75em 0;
 }
-p{
-	font-size: 1rem;
+p {
+  font-size: 1rem;
 }
 
-button{
-	margin: 1.5em 0;
-	background-color: var(--white);
-	padding: 1em 6em;
-	border-radius: 5em;
-	color: var(--violet);
-	border: 1px solid :var(--white);
+button {
+  margin: 1.5em 0;
+  background-color: var(--white);
+  padding: 1em 6em;
+  border-radius: 5em;
+  color: var(--violet);
+  border: 1px solid var(--white);
 }
 
 .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: var(--softMagenta);
-        text-decoration: none;
-      }
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: var(--softMagenta);
+  text-decoration: none;
+}
+.icon {
+  color: var(--white);
+  width: 20px;
+  height: 20px;
+}
