@@ -52,5 +52,9 @@ All my Front-End Mentor challenge solutions
 ### #13 Product preview card component
 - See live [Product card ](https://adammzkr.github.io/Front-End-Mentor/product-card/index.html)
 - Repo [Product card  CODE](https://github.com/AdamMzkr/Front-End-Mentor/tree/main/product-card)
+
+### #14 Intro component with sign-up form
+- See live [Registration form](https://adammzkr.github.io/Front-End-Mentor/intro-form/index.html)
+- Repo [Registrationc form  CODE](https://github.com/AdamMzkr/Front-End-Mentor/tree/main/intro-form)
  
  
