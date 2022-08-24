@@ -48,6 +48,7 @@ button {
 .attribution {
   font-size: 11px;
   text-align: center;
+  padding: 1em;
 }
 .attribution a {
   color: var(--softMagenta);
@@ -55,6 +56,20 @@ button {
 }
 .icon {
   color: var(--white);
-  width: 20px;
-  height: 20px;
+  width: 1em;
+}
+.social-icons {
+  margin: 2em auto;
+  display: flex;
+  width: 8em;
+  justify-content: space-between;
+}
+.circle-icon {
+  border: 1px solid var(--white);
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
