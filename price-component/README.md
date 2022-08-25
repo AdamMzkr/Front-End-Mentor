@@ -18,7 +18,7 @@ Your users should be able to:
 - See hover and focus states for interactive elements
 
 ### Screenshot
-![](grid-viewj.pg)
+![](grid-view.jpg)
 
 ### Links 
 
