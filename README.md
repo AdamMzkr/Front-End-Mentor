@@ -57,4 +57,7 @@ All my Front-End Mentor challenge solutions
 - See live [Registration form](https://adammzkr.github.io/Front-End-Mentor/intro-form/index.html)
 - Repo [Registrationc form  CODE](https://github.com/AdamMzkr/Front-End-Mentor/tree/main/intro-form)
  
+### #15 Single price grid component
+- See live [Single price grid component](https://adammzkr.github.io/Front-End-Mentor/price-component/index.html)
+- Repo [Single price grid component  CODE](https://github.com/AdamMzkr/Front-End-Mentor/tree/main/price-component)
  
