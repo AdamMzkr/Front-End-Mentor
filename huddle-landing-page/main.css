@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 :root {
   --violet: hsl(257, 40%, 49%);
   --softMagenta: hsl(300, 69%, 71%);
@@ -10,23 +11,33 @@
 body {
   background-color: var(--violet);
   background-image: url(images/bg-mobile.svg);
+  background-size: cover;
   color: var(--white);
-  font-family: sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 main {
   padding: 2em;
+  display: flex;
+  flex-direction: column;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  display: flex;
+  flex-direction: column;
 }
 .tc {
   text-align: center;
 }
-.container {
-}
 .logo {
   width: 8em;
-  margin: 0 0 2em 0;
+  margin: 2em 0 0 2em;
 }
 .illustration {
   max-width: 20em;
+  margin: 0 auto;
 }
 h1 {
   font-size: 1.75rem;
@@ -34,15 +45,22 @@ h1 {
 }
 p {
   font-size: 1rem;
+  line-height: 1.25em;
 }
 
 button {
-  margin: 1.5em 0;
+  margin: 2em 0;
   background-color: var(--white);
   padding: 1em 6em;
   border-radius: 5em;
   color: var(--violet);
   border: 1px solid var(--white);
+  transition: 0.3s;
+}
+button:hover {
+  background-color: var(--softMagenta);
+  color: var(--white);
+  border-color: var(--softMagenta);
 }
 
 .attribution {
@@ -54,10 +72,7 @@ button {
   color: var(--softMagenta);
   text-decoration: none;
 }
-.icon {
-  color: var(--white);
-  width: 1em;
-}
+
 .social-icons {
   margin: 2em auto;
   display: flex;
@@ -72,4 +87,51 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.circle-icon:hover,
+.icon:hover {
+  border-color: var(--softMagenta);
+  color: var(--softMagenta);
+}
+@media only screen and (min-width: 900px) {
+  body {
+    background-image: url(images/bg-desktop.svg);
+  }
+  main {
+    flex-direction: row;
+  }
+  .logo {
+    width: 13rem;
+    margin: 1em 4em;
+  }
+  .illustration {
+    max-width: 40em;
+    padding: 1em 2em;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    padding: 0em 2em;
+  }
+  .tc {
+    text-align: left;
+  }
+
+  button {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 6em;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 1.15rem;
+  }
+  .social-icons {
+    margin: 5em 0 0 0;
+    align-self: flex-end;
+  }
 }
