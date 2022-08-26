@@ -31,7 +31,7 @@ Your users should be able to:
 - Responsive Web Design
 - CSS custom properties
 - Flexbox
-- JavaScript DOM manipultion
+- JavaScript DOM manipulation
  
 ## Author
 
