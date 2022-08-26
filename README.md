@@ -65,7 +65,7 @@ All my Front-End Mentor challenge solutions
 - See live [Base Apparel coming soon page](https://adammzkr.github.io/Front-End-Mentor/coming-soon-landing-page/index.html)
 - Repo [Base Apparel coming soon page  CODE](https://github.com/AdamMzkr/Front-End-Mentor/tree/main/PING-landing)
  
- ### #16 Huddle landing page
+ ### #17 Huddle landing page
 - See live [Huddle landing page](https://adammzkr.github.io/Front-End-Mentor/huddle-landing-page/index.html)
 - Repo [Huddle landing page CODE](https://github.com/AdamMzkr/Front-End-Mentor/tree/main/huddle-landing-page)
  
