@@ -1,6 +1,6 @@
-# Frontend Mentor - Base Apparel coming soon page
+# Frontend Mentor - Ping single column coming soon page
 
-This is a solution to the [Base Apparel coming soon page](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0). 
+This is a solution to the [Ping single column coming soon page](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da). 
 
 ## Table of contents
 
@@ -26,7 +26,7 @@ Your users should be able to:
 
 ### Links 
 
--Live website -[see live](https://adammzkr.github.io/Front-End-Mentor/coming-soon-landing-page/index.html)
+-Live website -[see live](https://adammzkr.github.io/Front-End-Mentor/PING-landing/index.html)
 
 
 ### Built with
