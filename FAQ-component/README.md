@@ -37,5 +37,5 @@ Your users should be able to:
 ## Author
 
 - Website - [Adam M](https://github.com/AdamMzkr)
-- Frontend Mentor - [@AdmMzkr](https://www.frontendmentor.io/profile/AdamMzkr)
+- Front-end Mentor - [@AdmMzkr](https://www.frontendmentor.io/profile/AdamMzkr)
 - Email - [adm.mzkr@gmail.com](adm.mzkr@gmail.com)
