@@ -60,4 +60,12 @@ All my Front-End Mentor challenge solutions
 ### #15 Single price grid component
 - See live [Single price grid component](https://adammzkr.github.io/Front-End-Mentor/price-component/index.html)
 - Repo [Single price grid component  CODE](https://github.com/AdamMzkr/Front-End-Mentor/tree/main/price-component)
+
+ 
+### #16 Single price grid component
+- See live [ 
+### #15 Single price grid component
+- See live [Single price grid component](https://adammzkr.github.io/Front-End-Mentor/price-component/index.html)
+- Repo [Single price grid component  CODE](https://github.com/AdamMzkr/Front-End-Mentor/tree/main/PING-landing)
+- Repo [Single price grid component  CODE](https://github.com/AdamMzkr/Front-End-Mentor/tree/main/price-component)
  
