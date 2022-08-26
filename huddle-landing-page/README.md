@@ -20,7 +20,7 @@ Your users should be able to:
 
 
 ### Screenshot
-![](images/huddle-view.png)
+![](images/huddle-view.jpg)
 
 ### Links 
 
