@@ -62,6 +62,6 @@ All my Front-End Mentor challenge solutions
 - Repo [Single price grid component  CODE](https://github.com/AdamMzkr/Front-End-Mentor/tree/main/price-component)
 
 ### #16 Base Apparel coming soon page
-- See live [Base Apparel coming soon page  CODE](https://adammzkr.github.io/Front-End-Mentor/coming-soon-landing-page/index.html)
+- See live [Base Apparel coming soon page](https://adammzkr.github.io/Front-End-Mentor/coming-soon-landing-page/index.html)
 - Repo [Base Apparel coming soon page  CODE](https://github.com/AdamMzkr/Front-End-Mentor/tree/main/PING-landing)
  
